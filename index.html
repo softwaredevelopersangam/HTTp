@@ -10,6 +10,23 @@
 <body>
     <div class="container">
         <div class="row">
+            <div class="col-md-4">
+                <h2><strong>Filip The Title and Details
+                </strong></h2>
+                <form id="postFormInfo">
+                    <div class="form-group">
+                        <label for="title"><strong>Title</strong></label>
+                        <input type="text" required name="title" id="title" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="info"><strong>Text Info</strong></label>
+                        <textarea name="info" required class="form-control" id="info" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Add Post" id="btn" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
             <div class="col-md-8">
                 <table class="table table-dark table-striped">
                     <thead>
